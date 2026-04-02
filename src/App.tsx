@@ -32,6 +32,12 @@ const AccesoriosTrajeTehuanaArticle = lazy(() => import("./pages/blog/Accesorios
 const SanBlasAtempaArticle = lazy(() => import("./pages/blog/SanBlasAtempaArticle"));
 const VelasIstmenasArticle = lazy(() => import("./pages/blog/VelasIstmenasArticle"));
 const ProcesoHuipilArticle = lazy(() => import("./pages/blog/ProcesoHuipilArticle"));
+const TiposDeGuayaberasArticle = lazy(() => import("./pages/blog/TiposDeGuayaberasArticle"));
+const DiferenciasEnaguaRabonaArticle = lazy(() => import("./pages/blog/DiferenciasEnaguaRabonaArticle"));
+const FlorPeinadoIstmenoArticle = lazy(() => import("./pages/blog/FlorPeinadoIstmenoArticle"));
+const ReinasIstmoArticle = lazy(() => import("./pages/blog/ReinasIstmoArticle"));
+const TiposDeTrajesIstmoArticle = lazy(() => import("./pages/blog/TiposDeTrajesIstmoArticles"));
+const TiposDeTrenzasIstmoArticle = lazy(() => import("./pages/blog/TiposDeTrenzasIstmoArticle"));
 
 const queryClient = new QueryClient();
 
@@ -70,9 +76,16 @@ const App = () => (
             <Route path="/blog/san-blas-atempa" element={<SanBlasAtempaArticle />} />
             <Route path="/blog/velas-istmenas" element={<VelasIstmenasArticle />} />
             <Route path="/blog/proceso-huipil-artesanal" element={<ProcesoHuipilArticle />} />
+            <Route path="/blog/tipos-guayaberas-hombres" element={<TiposDeGuayaberasArticle />} />
+            <Route path="/blog/diferencias-enagua-rabona" element={<DiferenciasEnaguaRabonaArticle />} />
+            <Route path="/blog/flor-peinado-istmeno" element={<FlorPeinadoIstmenoArticle />} />
+            <Route path="/blog/reinas-istmo" element={<ReinasIstmoArticle />} />
+            <Route path="/blog/tipos-trajes-istmo" element={<TiposDeTrajesIstmoArticle/>} />
+            <Route path="/blog/tipos-trenzas-istmo" element={<TiposDeTrenzasIstmoArticle />} />
             <Route path="/testimonios" element={<Testimonials />} />
             <Route path="/contacto" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
+            
           </Routes>
         </Suspense>
       </BrowserRouter>

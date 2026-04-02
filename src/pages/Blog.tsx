@@ -18,6 +18,11 @@ import cuidado from "@/assets/cuidados.webp";
 import moderno from "@/assets/moderno.webp";
 import costura1 from "@/assets/costura1.webp";
 import grecaDivider from "@/assets/greca-divider.webp";
+import guayabera from "@/assets/guayabera4.webp";
+import enagua from "@/assets/enagua.webp"
+import mono from "@/assets/trenza.webp";
+import trajeistmo from "@/assets/trajetipico.webp";
+import trenzaverde from "@/assets/trenzaverde.webp";
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
@@ -41,6 +46,12 @@ const articles = [
   { title: "San Blas Atempa: Cuna de Tradición y Artesanía Istmeña", excerpt: "Historia, tradición textil y cultura zapoteca de la comunidad donde nace Flor Radiante.", image: sanblas, tag: "Historia", slug: "san-blas-atempa" },
   { title: "Velas Istmeñas: Tradición, Fiesta y Elegancia", excerpt: "Qué son las velas istmeñas, cómo se celebran y qué vestimenta usar. Prepárate para la temporada de velas de mayo.", image: vela, tag: "Cultura", slug: "velas-istmenas" },
   { title: "¿Por qué un huipil artesanal puede tardar semanas en elaborarse?", excerpt: "Proceso de bordado, tiempo de elaboración, técnicas artesanales y materiales. Descubre por qué cada huipil es una obra de arte.", image: tejido, tag: "Artesanía", slug: "proceso-huipil-artesanal" },
+  { title: "Tipos de Guayaberas: La Guía Completa para el Hombre del Istmo", excerpt: "La magia detras de cada guayabera. Descubre por qué cada guayabera es una obra de arte.", image: guayabera, tag: "Moda masculina", slug: "tipos-guayaberas-hombres" },
+  { title: "Diferencias entre Enagua y Rabona: ¿Cuál es Cuál y Para Qué Ocasión?", excerpt: "Descubre las diferencias entre la enagua y la rabona, dos prendas esenciales del Istmo de Tehuantepec que reflejan la identidad, tradición y riqueza cultural zapoteca.", image: enagua, tag: "Cultura", slug: "diferencias-enagua-rabona" },
+  { title: "¿De Qué lado va la Flor en el Peinado Istmeño? Significado y Tradición", excerpt: "El lado de la flor en el peinado istmeño no es casualidad. Descubre el mensaje que transmite dentro de la tradición istmeña.", image: mono, tag: "Guía del peinado", slug: "flor-peinado-istmeno" },
+  { title: "Las Reinas del Istmo: Costumbres, Trajes y Peinados de una Tradición Viva", excerpt: "Las reinas de las velas del Istmo representan elegancia, tradición y orgullo zapoteca. Descubre su papel dentro de una de las celebraciones más importantes en las fiestas istmeñas.", image: mono, tag: "Cultura", slug: "reinas-istmo" },
+  { title: "Tipos de Trajes del Istmo: Bordados, Tejidos, Cadenilla y Flor en Medio", excerpt: "Descubre los distintos tipos de trajes del Istmo de Tehuantepec y cómo cada uno refleja la riqueza, tradición y elegancia", image: trajeistmo, tag: "Guía Completa", slug: "tipos-trajes-istmo" },
+  { title: "Tipos de Peinados del Istmo de Tehuantepec: Tradición en Cada Peinado", excerpt: "Descubre los distintos tipos de trenzas del Istmo de Tehuantepec y cómo cada una refleja la tradición y elegancia", image: trenzaverde, tag: "Guía Completa", slug: "tipos-trenzas-istmo" },
 ];
 
 const Blog = () => (
